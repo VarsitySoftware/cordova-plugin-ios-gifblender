@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="com.varsitysoftware.plugins.ios.gifblender"
+  version="1.0.0">
+
+	<name>GIF Blender</name>
+	 
+	<description>
+		This plugin adds an overlay and/or a CSS filter to a GIF file
+	</description>
+	
+	<license>MIT</license>
+
+	<engines>
+		<engine name="cordova" version=">=3.5.0" />
+	</engines>  
+
+	<js-module src="www/gifblender.js" name="GIFBlender">
+		<clobbers target="plugins.gifBlender" />
+	</js-module>
+
+	<!-- ios -->
+	<platform name="ios">
+		<config-file target="config.xml" parent="/*">
+			<feature name="GIFBlender">
+				<param name="ios-package" value="GIFBlender"/>
+			</feature>
+		</config-file>
+
+		<header-file src="src/ios/GIFBlender.h" />
+		<source-file src="src/ios/GIFBlender.m" />
+
+	</platform>
+
+</plugin>
