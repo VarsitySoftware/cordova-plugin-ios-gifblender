@@ -33,7 +33,21 @@
 		
 		<header-file src="src/ios/UIImage+animatedGIF.h" />
 		<source-file src="src/ios/UIImage+animatedGIF.m" />
-
+		
+		<framework src="ImageIO.framework" weak="true" />		
+		<framework src="CoreGraphics.framework" />
+		<framework src="AssetsLibrary.framework" />
+		<framework src="MobileCoreServices.framework" />
+		<framework src="CoreGraphics.framework" />
+		<framework src="CoreMedia.framework" />
+		<framework src="CoreVideo.framework" />
+		<framework src="OpenGLES.framework" />
+		<framework src="QuartzCore.framework" />
+		<framework src="UIKit.framework" />
+		<framework src="AVFoundation.framework" />
+		<framework src="Foundation.framework" />
+		<framework src="MobileCoreServices.framework" />
+		
 	</platform>
 
 </plugin> 
