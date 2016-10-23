@@ -22,5 +22,4 @@ GifBlender.prototype.blend = function (success, fail, options)
 
 };
 
-
 window.gifBlender = new GifBlender();
