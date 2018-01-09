@@ -1,0 +1,20 @@
+{
+    "version": "0.0.1",
+    "name": "cordova-ios-gifblender",
+    "cordova_name": "IOS GIF Blender",
+    "description": "IOS GIF Blender",
+    "license": "MIT",
+    "repo": "https://github.com/VarsitySoftware/cordova-plugin-ios-gifblender.git",
+    "keywords": [
+        "cordova",
+        "ios",
+        "UIStatusBarHidden",
+        "UIViewControllerBasedStatusBarAppearance",
+        "ios9"
+    ],
+    "platforms": [
+        "ios"
+    ],
+    "engines": [],
+    "englishdoc": ""
+}
